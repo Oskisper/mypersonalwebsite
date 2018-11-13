@@ -1,2 +1,3 @@
 # mypersonalwebsite
-My website
+My website for school project
+Yay.
