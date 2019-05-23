@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .page-wrap{
+            width:500px;
+            height: auto;
+        }
+        .col-20{
+            max-width: 20%;
+            width:20%;
+            background-color: #ff0000;
+            height: auto;
+            min-height: 200px;
+            display: block;
+            float: left;
+        }
+        .col-80{
+            max-width: 80%;
+            width: 80%;
+            background-color: blue;
+            height: auto;
+            display: block;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-20">
+        <h1>Left</h1>
+        <div class="col-80">
+            <h3>Blå</h3>
+            <div class="col-20">
+                hej
+            </div>
+        </div>
+    </div>
+    <div class="col-80">Right</div>
+</body>
+</html>
