@@ -1,25 +1,6 @@
-@media (min-width: 1281px){
-
-  
-    body{
-   /*  background-color:black; */
-
-
-    }
-
-@media (min-width: 1025px){
-
-}
-
-    body{
-      /*  background-color:red; */
-
-    }
-
-
 *{
     margin: 0;
-    
+    padding:0px;
 }
 body{
     background-image: url("background.jpg");
@@ -41,8 +22,10 @@ ul {
   li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 30px 30px;
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
   }
   
   li a.active {
@@ -54,4 +37,43 @@ ul {
     background-color: #555;
     color: white;
   }
+  #pageid{
+    padding:9px 9px;
+    margin-left:10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  main{
+    min-height: 500px;
+    width: 83%;
+    margin-left:17%;
+    background-color:#f1f1f1;
+    padding:15px;
+    
+    
+
+  }
+#infotext{
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  top:50px;
+  position: absolute;
+  }
+  
+  
+  
+
+
+
+#number{
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
+#mail{
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+} 
+#contacttext{
+  font-family: 'Raleway', sans-serif;
+}
+
+
